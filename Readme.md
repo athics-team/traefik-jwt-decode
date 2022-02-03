@@ -22,6 +22,10 @@ If no token is present on the request `traefik-jwt-decode`will return 200 and se
 
 ## Installation and usage
 
+### Helm Chart
+
+Published chart to ArtifactHub thanks to this [blog](https://leeyoongti.medium.com/helm-in-kubernetes-part-4-publish-helm-chart-to-artifact-hub-using-github-pages-ab7f55904faa).
+
 ### Minimal with helm
 
 The below example will deploy `traefik-jwt-decode` into kubernetes which 
