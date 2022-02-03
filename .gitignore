@@ -1,7 +1,0 @@
-_out
-**/bin
-*.test
-config.json
-*.out
-.idea
-main
