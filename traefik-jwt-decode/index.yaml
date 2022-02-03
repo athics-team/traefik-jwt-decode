@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  traefik-jwt-decode:
+  - apiVersion: v2
+    created: "2022-02-03T18:31:04.28044372+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 6b83a8925b9f5efbaa8636f05030dca72ed99b3bea69637be3dec9578575159d
+    name: traefik-jwt-decode
+    type: application
+    urls:
+    - traefik-jwt-decode-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-02-03T18:31:04.27766155+01:00"

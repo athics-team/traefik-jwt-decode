@@ -1,0 +1,14 @@
+services:
+  jwt-decode:
+    build: _docker
+    container_name: "jwt-decode"
+    environment:
+      - CLAIM_MAPPINGS=team_role:jwt-token-teams,sub:jwt-token-userid
+      - JWKS_URL="JWKS_URL"
+      - LOG_LEVEL=trace
+      - LOG_TYPE=pretty
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8080"
